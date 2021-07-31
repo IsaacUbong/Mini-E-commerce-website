@@ -1,0 +1,121 @@
+body{
+    background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(12, 5, 5, 0.6)),url(../images/slider3.jpg);;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    color: red;
+}
+.logo h1 span{
+    color: white;
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgb(71, 4, 4);
+    max-width: 300px;
+    margin: 10 auto 100px;
+    padding: 40px;
+    text-align: center;
+    height: 350px;
+    top: 120px;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    top: -4em;
+    position: relative;
+    max-width: 300%;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.login-form h3 img{
+   width: 90px;
+   position: relative;
+   top: -4em;
+   border-radius: 50px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #010301;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    top: -3em;
+    border-radius: 10px;
+}
+.form button:hover,.form button:active{
+    background: #ec1616;
+}
+
+.form .message{
+    margin: 5px 0 25;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
+.form .register-form{
+    display: none;
+}
+.form .forgot-password{
+    margin: 5px 0 25;
+    color: white;
+    font-size: 12px;
+}
+/* ----for small device----- */
+@media only screen and (max-width:900px){
+.form{
+    margin: 50px 50px;
+    width: 60%;
+    height: 300px;
+}
+.form input{
+    height: 40px;
+}
+.form .login button{
+height: 10px;
+padding-bottom: 20px;
+padding-top: 8px;
+}
+.login-form h3 img{
+    top: -3em;
+}
+}
